@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+        <listeners> 
+                   <listener class-name="Listener.ListenerUtil"/>
+          </listeners>
+
+  <test  name="PersonalDetails">
+    <classes>
+      <class name="TestNGConcepts.PersonalDetails"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Priorities">
+    <classes>
+      
+      <class name="TestNGConcepts.Priorities"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Regression Suite -->

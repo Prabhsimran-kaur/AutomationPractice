@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+           <listeners> 
+           <listener class-name="Listener.ListenerUtil"/>
+          </listeners>
+     
+     <suite-files>
+     <suite-file path="SuiteA.xml"></suite-file>
+     <suite-file path="SuiteB.xml"></suite-file>
+     </suite-files>
+     
+     
+     
+     </suite> <!-- Suite -->
+     
+     
+     
+     
+     
+
+
+
+  

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="Listener.ListenerUtil"/>
+  </listeners>
+  <test thread-count="5" name="GoogleApp(failed)">
+    <parameter name="url" value="https://www.google.com/"/>
+    <classes>
+      <class name="TestNGConcepts.GoogleApp">
+        <methods>
+          <include name="launchGoogleApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGConcepts.GoogleApp -->
+    </classes>
+  </test> <!-- GoogleApp(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

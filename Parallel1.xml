@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Regression Suite" thread-count="2"  parallel="tests">
+  <test  name="Flipkart">
+    <classes>
+      <class name="ParallelExecution.Flipkart"/>
+    </classes>
+  </test> 
+  
+  
+  <test  name="GoogleApp">
+    <classes>
+      <class name="ParallelExecution.GoogleApp"/>
+    </classes>
+  </test>  
+</suite> <!-- Suite -->
